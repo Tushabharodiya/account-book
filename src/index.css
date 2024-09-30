@@ -1,0 +1,127 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --green-color: #00B312;
+    --red-color: #FF303F;
+    --blue-color: #322EFF;
+    --blue-120: rgb(50, 46, 255,0.3);
+    --text-color: #0E0B1F;
+    --drakgray-color: #424242;
+    --lightgray-color: #7C7C7C;
+    --border-color: #D7D7D7;
+    --backgrounnd-color: #D7D7D7;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/* ===========================Slider====================== */
+.slider-bar {
+    padding: 20px;
+}
+
+.slider-bar .logo-img {
+    text-align: center;
+    font-size: 33px;
+    color: #0021A7;
+    margin-bottom: 26px;
+}
+
+.slider-bar .slider-text h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--lightgray-color);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.slidercontent {
+    margin: 16px 20px;
+}
+
+.slidercontent li a {
+    color: var(--drakgray-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.slidercontent li a i{
+    padding-right: 16px;
+}
+.dropdown-menu {
+    background-color: var(--blue-120);
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: var(--blue-120);
+    color: var(--blue-color);
+}
+.dropdown{
+    background-color: var(--blue-120);
+    width: 100%;
+    padding: 10px 20px;
+}
+/* .dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 8px 16px;
+} */
+
+/* .dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+} */
+
+/* .dropdown-menu.show {
+    display: block;
+    animation: fadeIn 0.3s ease;
+} */
+
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
